@@ -1,40 +1,43 @@
 
+
+
+
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
 
 @font-face {
   font-family: Poppins-Regular;
-  src: url('../fonts/Poppins-Regular.ttf');
+  src: url('../lib/fonts/poppins/Poppins-Regular.ttf');
 }
 
 @font-face {
   font-family: Poppins-Bold;
-  src: url('../fonts/Poppins-Bold.ttf');
+  src: url('../lib/fonts/poppins/Poppins-Bold.ttf');
 }
 
 @font-face {
   font-family: Poppins-Medium;
-  src: url('../fonts/Poppins-Medium.ttf');
+  src: url('../lib/fonts/poppins/Poppins-Medium.ttf');
 }
 
 @font-face {
   font-family: Raleway-Regular;
-  src: url('../fonts/Raleway-Regular.ttf');
+  src: url('../lib/fonts/raleway/Raleway-Regular.ttf');
 }
 
 @font-face {
   font-family: Raleway-Black;
-  src: url('../fonts/Raleway-Black.ttf');
+  src: url('../lib/fonts/raleway/Raleway-Black.ttf');
 }
 
 @font-face {
   font-family: Raleway-SemiBold;
-  src: url('../fonts/Raleway-SemiBold.ttf');
+  src: url('../lib/fonts/raleway/Raleway-SemiBold.ttf');
 }
 
 @font-face {
   font-family: Raleway-Bold;
-  src: url('../fonts/Raleway-Bold.ttf');
+  src: url('../lib/fonts/raleway/Raleway-Bold.ttf');
 }
 
 
@@ -71,7 +74,7 @@ a:focus {
 
 a:hover {
 	text-decoration: none;
-  color: #e8853f;
+  color: #3ec1d5;
 }
 
 /*---------------------------------------------*/
@@ -158,7 +161,7 @@ iframe {
 }
 
 .hov1:hover {
-  border-color: #e8853f;
+  border-color: #3ec1d5;
 }
 
 
@@ -182,11 +185,11 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: #0250c5;
-  background: -webkit-linear-gradient(bottom, #737a85, #D2F2F3);
-  background: -o-linear-gradient(bottom, #0250c5, #d43f8d);
-  background: -moz-linear-gradient(bottom, #0250c5, #d43f8d);
-  background: linear-gradient(bottom, #0250c5, #d43f8d);
+  background: #bad2d6;
+  background: -webkit-linear-gradient(bottom, #bad2d6, #8be2f0);
+  background: -o-linear-gradient(bottom, #bad2d6, #8be2f0);
+  background: -moz-linear-gradient(bottom, #bad2d6, #8be2f0);
+  background: linear-gradient(bottom, #bad2d6, #8be2f0);
   position: relative;
   z-index: 1;
 }
@@ -207,8 +210,7 @@ iframe {
 }
 
 .wrap-login100 {
-  width: 450px;
-  margin-top: 70px;
+  width: 470px;
   background: #fff;
   border-radius: 3px;
   overflow: hidden;
@@ -254,6 +256,7 @@ iframe {
   font-size: 18px;
   line-height: 1.2;
   color: #686868;
+
   display: block;
   width: 100%;
   background: #e6e6e6;
@@ -275,7 +278,7 @@ iframe {
   width: 100%;
   height: 100%;
   box-shadow: 0px 0px 0px 0px;
-  color: rgba(211,63,141, 0.6);
+  color: rgba(62, 193, 213, 0.6);
 }
 
 .input100:focus + .focus-input100 {
@@ -324,7 +327,7 @@ iframe {
 }
 
 .input100:focus + .focus-input100 + .symbol-input100 {
-  color: #e8853f;
+  color: #3ec1d5;
   padding-left: 18px;
 }
 
@@ -365,7 +368,7 @@ iframe {
   height: 18px;
   border-radius: 3px;
   background: #fff;
-  border: 2px solid #e8853f;
+  border: 2px solid #3ec1d5;
   left: 0;
   top: 48%;
   -webkit-transform: translateY(-50%);
@@ -376,7 +379,7 @@ iframe {
 }
 
 .input-checkbox100:checked + .label-checkbox100::before {
-  color: #e8853f;
+  color: #3ec1d5;
 }
 
 
@@ -403,7 +406,7 @@ iframe {
   width: 100%;
   height: 62px;
   border-radius: 3px;
-  background: #e8853f;
+  background: #3ec1d5;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -474,7 +477,7 @@ iframe {
 
 .btn-face:hover,
 .btn-google:hover {
-  border-color: #e8853f;
+  border-color: #3ec1d5;
 }
 
 
